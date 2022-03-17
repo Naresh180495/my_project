@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            width: 80%;
+            caption-side:top;
+            background-color: beige;
+            margin: 10px auto;
+            
+        }
+        table,th,td{
+            border:5px dotted red;
+            border-spacing: 5px;
+            border-collapse:collapse;
+           
+        }
+        th,td{
+            padding: 15px;
+            text-transform: capitalize;
+            font-family: cursive;  
+        
+        }
+        thead th{
+            background-color: black;
+            color: white;
+        }
+        thead th:hover{
+            color:yellow;
+            background-color: rgba(0%,0%,0%,0.9);
+        }
+        tr.hover:hover{
+            background-color: yellow;
+            color:red;
+            font-size:15px;
+               
+        }
+        
+    </style>
+</head>
+<body>
+     <table>
+         <caption>My table</caption>
+       <thead>
+        <tr>
+            <th>First Name</th>
+            <th>City</th>
+            <th>salary</th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr class="hover">
+            <td style="border:0px;">Naresh</td>
+            <td style="border:0px;">mumbai</td>
+            <td style="border:0px;">10000</td>
+        </tr>
+        <tr class="hover">
+            <td >vaibhav</td>
+            <td style="border:0px;">mumbai</td>
+            <td>10000</td>
+        </tr>
+        <tr class="hover">
+            <td>shoeb</td>
+            <td style="border:0px;">mumbai</td>
+            <td>10000</td>
+        </tr>
+        <tr class="hover">
+            <td>sanjivani</td>
+            <td style="border:0px;">mumbai</td>
+            <td>10000</td>
+        </tr>
+        <tr class="hover">
+            <td>Sneha</td>
+            <td style="border:0px;">mumbai</td>
+            <td>10000</td>
+        </tr>
+       </tbody>
+    
+       </table>
+
+      
+</body>
+</html>
